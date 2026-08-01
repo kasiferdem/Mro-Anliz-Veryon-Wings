@@ -1,0 +1,16 @@
+file,risk_class,row_count,sensitive_headers,nonempty_counts
+Report/kod_tablolari/api.AuthRefreshTokens.csv,credential,149,Token|JwtId,JwtId:149|Token:149
+Report/kod_tablolari/dbo.aAccount.csv,pii,34,BankAccountNumber|BankIBANNo|BankSwiftCode,
+Report/kod_tablolari/dbo.aAddress.csv,pii,2,Telephone|EMail,
+Report/kod_tablolari/dbo.aAddressContact.csv,pii,2,FirstName|Surname|Mobile|Email,FirstName:2|Surname:2
+Report/kod_tablolari/dbo.lEmployee.csv,pii,25,NationalInsuranceNo|FirstName|Surname|DateOfBirth|Mobile|Email,DateOfBirth:25|FirstName:25|Surname:25
+Report/kod_tablolari/dbo.lEmployeeEmailAddress.csv,pii,1,Email,Email:1
+Report/kod_tablolari/dbo.lPasswordHistory.csv,credential,3,Password|PasswordSalt,Password:3|PasswordSalt:3
+Report/kod_tablolari/dbo.tPublicationCopyLocation.csv,pii,2,Telephone,
+Report/kod_tablolari/dbo.tPublicationRange.csv,pii,5,Email,Email:5
+Report/kod_tablolari/dbo.uDatabaseConnection.csv,credential,1,Password,Password:1
+Report/kod_tablolari/dbo.uRALTimeLineScreenSetup.csv,pii,4,FirstName|Surname,FirstName:4|Surname:4
+Report/kod_tablolari/dbo.uRALUser.csv,credential,28,FirstName|Surname|Password|UserTel|UserEmail|PasswordSalt|PasswordResetToken,FirstName:27|Password:28|PasswordSalt:24|Surname:26|UserEmail:1
+Report/kod_tablolari/dbo.uTemplateType.csv,pii,20,Email,Email:20
+Report/kod_tablolari/nGenImport.uTemplateType.csv,pii,20,Email,Email:20
+Report/kod_tablolari/webapi.AuthRefreshTokens.csv,credential,162,Token|JwtId,JwtId:162|Token:162

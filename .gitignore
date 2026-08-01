@@ -1,0 +1,33 @@
+# Confidential source exports
+*.zip
+input/
+inputs/
+raw-db/
+extracted/
+Report/
+wings-analiz.md
+veryon-analiz.md
+fox-mro-veryon-assessment/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Python and local tooling
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Operating system / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Generated temporary files; reviewed aggregates under data/generated stay tracked
+tmp/
+.work/

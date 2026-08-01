@@ -1,0 +1,9 @@
+prefix,module,tables,columns,snapshot_rows,nonempty_tables,indexes
+a,accounts-commercial,246,4536,185,49,357
+l,labour-training,288,5137,926,54,383
+o,flight-operations,77,1305,203,23,110
+q,quality-safety,129,2402,158,28,161
+s,supply-commercial-mro,691,13960,974,117,1196
+t,technical-maintenance,959,18179,16321,139,1467
+u,platform-configuration,324,5208,462605,155,413
+w,workflow,27,422,35046,23,57

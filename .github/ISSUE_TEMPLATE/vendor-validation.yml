@@ -1,0 +1,50 @@
+name: Satıcı doğrulama bulgusu
+description: RFP, demo veya referans görüşmesinden doğrulanmış ürün bulgusu ekleyin.
+title: "[VENDOR] "
+labels: ["vendor-validation"]
+body:
+  - type: dropdown
+    id: vendor
+    attributes:
+      label: Ürün
+      options:
+        - Veryon Tracking+
+        - WINGS
+        - TRAX eMRO
+        - CORRIDOR / CAMP Aviate
+        - Ramco Aviation
+    validations:
+      required: true
+  - type: dropdown
+    id: evidence
+    attributes:
+      label: Kanıt tipi
+      options:
+        - Canlı demo
+        - Sandbox / pilot
+        - Sözleşme / teklif
+        - Teknik doküman
+        - Referans müşteri görüşmesi
+    validations:
+      required: true
+  - type: textarea
+    id: finding
+    attributes:
+      label: Bulgular
+      description: Gözlenen davranış, sınır ve ekran/işlem örneğini yazın.
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: FOX MRO etkisi
+      description: Puanı, mimariyi veya yol haritasını nasıl etkiliyor?
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Kaynak / kanıt konumu
+      description: Gizli veri eklemeden belge veya görüşme referansı verin.
+    validations:
+      required: true

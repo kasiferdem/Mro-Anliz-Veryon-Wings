@@ -1,0 +1,278 @@
+{
+  "generated_on": "2026-08-01",
+  "source_name": "Veryon DB Report.zip",
+  "safety": "metadata-only; no source row values exported",
+  "archive": {
+    "entries": 650,
+    "files": 647,
+    "code_table_files": 611,
+    "sample_files": 30
+  },
+  "schema": {
+    "schemas": 10,
+    "tables": 3166,
+    "columns": 56828,
+    "average_columns_per_table": 17.95,
+    "max_columns_per_table": 198,
+    "descriptions": 15,
+    "by_schema": {
+      "api": {
+        "tables": 29,
+        "columns": 195,
+        "rows": 1643
+      },
+      "cmro": {
+        "tables": 4,
+        "columns": 45,
+        "rows": 0
+      },
+      "dbo": {
+        "tables": 2768,
+        "columns": 51632,
+        "rows": 516418
+      },
+      "ect": {
+        "tables": 10,
+        "columns": 97,
+        "rows": 0
+      },
+      "ewi": {
+        "tables": 4,
+        "columns": 34,
+        "rows": 0
+      },
+      "import": {
+        "tables": 253,
+        "columns": 3309,
+        "rows": 0
+      },
+      "interfaces": {
+        "tables": 11,
+        "columns": 42,
+        "rows": 1
+      },
+      "nGenImport": {
+        "tables": 44,
+        "columns": 808,
+        "rows": 43472
+      },
+      "systeminterfaces": {
+        "tables": 11,
+        "columns": 42,
+        "rows": 2496
+      },
+      "webapi": {
+        "tables": 32,
+        "columns": 624,
+        "rows": 193
+      }
+    }
+  },
+  "rows": {
+    "total": 564223,
+    "nonempty_tables": 651,
+    "empty_tables": 2515,
+    "empty_table_rate": 0.7944,
+    "top_tables": [
+      {
+        "table": "dbo.uRoleComponent",
+        "rows": 342237
+      },
+      {
+        "table": "dbo.uRALDatabaseInfoDetail",
+        "rows": 44774
+      },
+      {
+        "table": "dbo.uAuditDelete",
+        "rows": 13580
+      },
+      {
+        "table": "dbo.uBaseLanguageTranslations",
+        "rows": 12510
+      },
+      {
+        "table": "nGenImport.uBaseLanguageTranslations",
+        "rows": 12510
+      },
+      {
+        "table": "dbo.uRALDate",
+        "rows": 11323
+      },
+      {
+        "table": "dbo.uCity",
+        "rows": 10370
+      },
+      {
+        "table": "dbo.tPlace1",
+        "rows": 7504
+      },
+      {
+        "table": "dbo.tPlace",
+        "rows": 6362
+      },
+      {
+        "table": "nGenImport.uMasterDataColumn",
+        "rows": 5318
+      },
+      {
+        "table": "dbo.wComponentAction",
+        "rows": 4680
+      },
+      {
+        "table": "dbo.wComponentActionOld",
+        "rows": 4675
+      },
+      {
+        "table": "nGenImport.wComponentAction",
+        "rows": 4471
+      },
+      {
+        "table": "dbo.uMasterDataColumn",
+        "rows": 4001
+      },
+      {
+        "table": "dbo.wComponentWorkFlowType",
+        "rows": 3924
+      },
+      {
+        "table": "nGenImport.wComponentWorkFlowType",
+        "rows": 3924
+      },
+      {
+        "table": "dbo.wComponent",
+        "rows": 3522
+      },
+      {
+        "table": "dbo.wComponentLookup",
+        "rows": 3521
+      },
+      {
+        "table": "nGenImport.wComponent",
+        "rows": 3521
+      },
+      {
+        "table": "dbo.wWorkFlowNodes",
+        "rows": 3007
+      }
+    ]
+  },
+  "constraints": {
+    "CHECK": 6,
+    "FK": 404,
+    "PK": 3091,
+    "UQ": 19
+  },
+  "indexes": {
+    "total": 4662,
+    "by_type": {
+      "CLUSTERED": 3088,
+      "NONCLUSTERED": 1574
+    },
+    "by_uniqueness": {
+      "False": 1062,
+      "True": 3600
+    }
+  },
+  "code_objects": {
+    "total": 9667,
+    "by_type": {
+      "SQL_INLINE_TABLE_VALUED_FUNCTION": 15,
+      "SQL_SCALAR_FUNCTION": 201,
+      "SQL_STORED_PROCEDURE": 2954,
+      "SQL_TABLE_VALUED_FUNCTION": 39,
+      "SQL_TRIGGER": 4110,
+      "VIEW": 2348
+    }
+  },
+  "data_types": {
+    "bigint": 141,
+    "bit": 13328,
+    "char": 31,
+    "date": 5,
+    "datetime": 6786,
+    "datetime2": 106,
+    "datetimeoffset": 2,
+    "decimal": 1684,
+    "float": 75,
+    "hierarchyid": 1,
+    "image": 3,
+    "int": 19564,
+    "money": 3,
+    "nchar": 194,
+    "ntext": 4,
+    "nvarchar": 8661,
+    "smalldatetime": 304,
+    "smallint": 7,
+    "sysname": 5,
+    "timestamp": 2794,
+    "tinyint": 10,
+    "uniqueidentifier": 29,
+    "varbinary": 2829,
+    "varchar": 237,
+    "xml": 25
+  },
+  "legacy_data_types": {
+    "image": 3,
+    "money": 3,
+    "ntext": 4,
+    "smalldatetime": 304,
+    "timestamp": 2794
+  },
+  "relationship_naming_signals": {
+    "columns_ending_with__ID": 9217,
+    "columns_containing__ID": 14026,
+    "caveat": "Naming signals are not foreign keys. The broader count includes audit, creator, default and role-qualified identifiers."
+  },
+  "camo_reference_table_rows": {
+    "dbo.sOrderTaskStatus": 14,
+    "dbo.tADComplianceStatus": 3,
+    "dbo.tAssetRemovalReason": 4,
+    "dbo.tAssetStatus": 7,
+    "dbo.tCardStatus": 5,
+    "dbo.tComplianceCategory": 3,
+    "dbo.tComplianceTaskType": 6,
+    "dbo.tDefectStatus": 5,
+    "dbo.tForecastFrom": 4,
+    "dbo.tLifeCode": 14,
+    "dbo.tMELCode": 5,
+    "dbo.tTaskCode": 73
+  },
+  "common_columns": {
+    "ID": 3044,
+    "uRALUser_ID": 2824,
+    "uRALUser_IDCreated": 2822,
+    "RecordTimeStamp": 2798,
+    "Version": 2798,
+    "RecordTimeStampCreated": 2797,
+    "Closed": 2793,
+    "ReadOnly": 2793,
+    "RecordLocked": 2793,
+    "GUID": 2747,
+    "Description": 803,
+    "Remarks": 468,
+    "irImportID": 215,
+    "Active": 181,
+    "Sequence": 180,
+    "Code": 157,
+    "lEmployee_ID": 148,
+    "sPart_ID": 142,
+    "ErrorLevel": 141,
+    "uRALBase_ID": 135
+  },
+  "security": {
+    "sensitive_export_files": 15,
+    "credential_export_files": 5,
+    "token_aggregates": {
+      "Report/kod_tablolari/api.AuthRefreshTokens.csv": {
+        "rows": 149,
+        "future_expiry": 0,
+        "not_used_not_invalidated": 145
+      },
+      "Report/kod_tablolari/webapi.AuthRefreshTokens.csv": {
+        "rows": 162,
+        "future_expiry": 0,
+        "not_used_not_invalidated": 162
+      }
+    }
+  }
+}
